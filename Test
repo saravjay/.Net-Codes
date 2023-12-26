@@ -1,0 +1,24 @@
+class Test
+{
+    public string name;
+    public int age;
+    public static void Main()
+    {
+        Test t = new Test();
+
+        t.age = 1;
+        t.name = "test";
+
+        if (t.name == "test" )
+        {
+            Console.WriteLine("The name is Test");
+        }
+        else
+        {
+            Console.WriteLine("The name is not test");
+        }
+        Console.ReadKey();
+       
+
+    }
+}
